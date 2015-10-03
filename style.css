@@ -1,0 +1,289 @@
+/*
+$r_blue: #0DA1DB;
+$r_lightBlue: #58BEE8;
+$r_darkBlue: #0DA3DC;
+$r_lightGray: #EDEEEE;
+$bgcolor: #FBFBFA;
+$bgcolor_2: #FAFAFA;
+$moneycolor: #59bf39;
+*/
+
+@font-face {
+  font-family: 'sfns';
+  src: url("fonts/system_san_francisco_display_bold-webfont.eot");
+  src: url("fonts/system_san_francisco_display_bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/system_san_francisco_display_bold-webfont.woff2") format("woff2"), url("fonts/system_san_francisco_display_bold-webfont.woff") format("woff"), url("fonts/system_san_francisco_display_bold-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: 'sfns';
+  src: url("fonts/system_san_francisco_display_regular-webfont.eot");
+  src: url("fonts/system_san_francisco_display_regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/system_san_francisco_display_regular-webfont.woff2") format("woff2"), url("fonts/system_san_francisco_display_regular-webfont.woff") format("woff"), url("fonts/system_san_francisco_display_regular-webfont.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'sfns';
+  src: url("fonts/system_san_francisco_display_thin-webfont.eot");
+  src: url("fonts/system_san_francisco_display_thin-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/system_san_francisco_display_thin-webfont.woff2") format("woff2"), url("fonts/system_san_francisco_display_thin-webfont.woff") format("woff"), url("fonts/system_san_francisco_display_thin-webfont.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal; }
+@font-face {
+  font-family: 'sfns';
+  src: url("fonts/system_san_francisco_display_ultralight-webfont.eot");
+  src: url("fonts/system_san_francisco_display_ultralight-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/system_san_francisco_display_ultralight-webfont.woff2") format("woff2"), url("fonts/system_san_francisco_display_ultralight-webfont.woff") format("woff"), url("fonts/system_san_francisco_display_ultralight-webfont.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+
+html {
+  background-color: #FBFBFA;
+  font-family: "sfns";
+  color: #0DA1DB;
+}
+
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+select {
+  width: 100%;
+}
+
+.u-header {
+  width: 100%;
+  top: 0;
+  height: 75px;
+  background-color: #0DA1DB;
+  position: fixed;
+}
+
+.header-list {
+  color: white;
+  margin: 0;
+  height: 75px;
+}
+
+.header-list li {
+  display: inline-block;
+  line-height: 75px;
+}
+
+#header-logo {
+  height: 62px;
+  width: 62px;
+  vertical-align: middle;
+  margin-right: 25px;
+  margin-bottom: 23px;
+  border-radius: 50%;
+}
+
+.header-text {
+  display: inline;
+  font-weight: 200;
+  font-size: 3.5em;
+}
+
+#header-user {
+  font-size: 0.45em;
+  float: right;
+  margin-right: 40px;
+}
+
+.root {
+  background-color: #FAFAFA;
+  width: 1000px;
+  min-height: 95%;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #EDEEEE;
+  box-sizing: border-box;
+  padding: 20px;
+  padding-bottom: 25px;
+}
+
+.left-menu {
+  display: inline-block;
+  width: 150px;
+  padding-left: 15px;
+  list-style: none;
+  position: fixed;
+  top: 25%;
+}
+
+.left-menu li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-height: 40px;
+  background-color: #EDEEEE;
+  border-bottom-right-radius: 50em;
+  border-top-right-radius: 50em;
+}
+
+.left-menu li a {
+  text-decoration: none;
+  color: #0DA3DC;
+  display: block;
+  line-height: 40px;
+  font-weight: 300; 
+  margin-left: 10px;
+}
+
+.page-content {
+  display: inline-block;
+  width: 725px;
+  margin-left: 225px;
+  margin-top: 75px;
+}
+
+.entity-container {
+  background-color: white;
+  display: inline-block;
+  vertical-align: top;
+  min-width: 45%;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-right: 25px;
+  padding: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #EDEEEE;
+  box-sizing: border-box;
+}
+
+.tile {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, .40);
+/*  box-shadow: 0 3px 10px rgba(13, 163, 220, .40);*/
+/*  box-shadow: 0 3px 10px rgba(88 , 190, 232, .40);*/
+/*  box-shadow: 0 3px 10px rgba(13, 163, 220, .40);*/
+}
+
+.content-title {
+  text-align: center;
+  font-weight: 100;
+  font-size: 3.75em;
+  margin-top: 0;
+}
+
+.entity-container-btn {
+  height: 40px;
+  border-radius: 1em;
+  background-color: #58BEE8;
+  border-color: #58BEE8;
+/*  border-radius: 0.5em;*/
+  color: white;
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+
+.alert {
+  background-color: red;
+  border-color: red;
+/*
+  height: 40px;
+  border-radius: 1em;
+*/
+}
+
+.entity-container-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 100;
+  font-size: 1.85em;
+}
+
+.red {
+  color: red;
+}
+
+.center {
+  text-align: center;
+}
+
+.entity-container-subhead {
+  font-weight: 200;
+  font-size: 1.5em;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.container-p {
+  color: black;
+  font-weight: 300;
+  font-size: 0.95em;
+}
+
+input {
+  display: block;
+  margin-top: 3px;
+  height: 35px;
+  width: 100%;
+  text-indent: 10px;
+  box-sizing: border-box;
+  border-radius: 0.4em;
+  border-style: solid;
+  border-color: #EDEEEE;
+  border-width: 2px;
+  -webkit-appearance: none;
+}
+
+td {
+  text-align: center;
+}
+
+.manager-table {
+  height: 100%;
+  width: 100%;
+}
+
+.pledge-table {
+  height: 100%;
+  width: 100%;
+}
+
+.table-img {
+  height: auto;
+/*  width: 95px;*/
+  width: 7em;
+}
+
+.user {
+  border-radius: 50%;
+}
+
+.heart {
+  height: auto;
+/*  width: 55px;*/
+  width: 3.25em;
+  padding-top: 15px;
+  margin-bottom: -10px;
+}
+
+.page-footer {
+  position: relative;
+  font-size: 80%; 
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.page-footer ul {
+  padding: 0;
+}
+
+.page-footer li {
+  display: inline;
+  margin-left: 5px;
+  color: dimgray; }
+
+.page-footer li a {
+  text-decoration: none;
+  color: #0DA1DB;
+  font-weight: 400; }
+
+.page-footer li a:visited {
+  color: #0DA1DB; }
+
+.page-footer li a:hover {
+  color: #58BEE8; }
