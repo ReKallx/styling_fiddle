@@ -164,6 +164,7 @@ select {
   font-weight: 100;
   font-size: 3.75em;
   margin-top: 0;
+  margin-bottom: 5px;
 }
 
 .entity-container-btn {
@@ -171,7 +172,6 @@ select {
   border-radius: 1em;
   background-color: #58BEE8;
   border-color: #58BEE8;
-/*  border-radius: 0.5em;*/
   color: white;
   font-size: 1em;
   letter-spacing: 2px;
@@ -180,10 +180,31 @@ select {
 .alert {
   background-color: red;
   border-color: red;
-/*
-  height: 40px;
-  border-radius: 1em;
-*/
+}
+
+.section-btn-div {
+  width: inherit;
+  display: inline-block;
+  text-align: center;
+}
+
+.section-btn {
+  border-radius: 10000em;
+  border-width: 1.5px;
+  display: inline-block;
+  height: 80%;
+  max-width: 20%;
+}
+
+.add-btn {
+  background-color: #59bf39;
+  border-color: #59bf39;
+}
+
+.remove-btn {
+  color: red;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: red;
 }
 
 .entity-container-title {
