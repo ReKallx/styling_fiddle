@@ -1,5 +1,5 @@
 function addInfo() {
-  alert('add');
+  window.location = "#addInfo-form";
 }
 
 function removeInfo() {
