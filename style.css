@@ -258,6 +258,16 @@ select {
   border-color: red;
 }
 
+.alert-remove {
+  float: right;
+  margin: 0;
+  font-size: 75%;
+}
+
+.alert-remove:hover {
+  cursor: pointer;
+}
+
 .entity-container-title {
   margin-top: 0;
   margin-bottom: 10px;
