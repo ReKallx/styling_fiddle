@@ -264,6 +264,11 @@ select {
   font-size: 75%;
 }
 
+.alert-goto {
+  color: #59bf39;
+  margin-right: 10px;
+}
+
 .alert-remove:hover {
   cursor: pointer;
 }
